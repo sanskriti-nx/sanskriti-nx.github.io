@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse our complete collection of handcrafted metal idols, tribal art, animal figurines, and home decor from SANSKRITI NX, Raipur.">
+  <meta name="keywords" content="handicrafts gallery, metal idols, Ganesha statues, tribal art, Dhokra sculptures, decorative items">
+  <title>Gallery - SANSKRITI NX | Our Handcrafted Collection</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/sanskriti-nx-logo.png" alt="SANSKRITI NX Logo" style="height: 50px; width: auto;">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h1 class="display-3 fw-bold mb-3">Our Collection</h1>
+          <p class="lead">Handcrafted Treasures of Indian Heritage</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTER BUTTONS -->
+  <section class="py-4 bg-white sticky-top" style="top: 76px; z-index: 100;">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-center gap-2">
+        <button class="filter-btn active" data-category="all">All Products</button>
+        <button class="filter-btn" data-category="idols">Metal Idols</button>
+        <button class="filter-btn" data-category="tribal">Tribal Art</button>
+        <button class="filter-btn" data-category="animal">Animal Décor</button>
+        <button class="filter-btn" data-category="decor">Home Décor</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT GALLERY -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-4" id="productGrid">
+
+        <!-- Product 1: Brass Ganesha Idol -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="idols">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/1.png" alt="Handcrafted Metal Idol" class="w-100">
+              <span class="product-badge">Metal Idols</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Handcrafted Metal Idol</h5>
+              <p class="text-muted small mb-0">Traditional brass deity statue</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Tribal Couple Sculpture -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="tribal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/2.png" alt="Tribal Art Sculpture" class="w-100">
+              <span class="product-badge">Tribal Art</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Tribal Art Sculpture</h5>
+              <p class="text-muted small mb-0">Authentic Dhokra traditional art piece</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Decorative Peacock Boat -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="decor">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/3.png" alt="Decorative Peacock Boat" class="w-100">
+              <span class="product-badge">Home Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Decorative Art Piece</h5>
+              <p class="text-muted small mb-0">Handcrafted metal home decoration</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4: Bull Figurine -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="animal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/4.png" alt="Sacred Bull Figurine" class="w-100">
+              <span class="product-badge">Animal Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Animal Figurine</h5>
+              <p class="text-muted small mb-0">Traditional metal sculpture</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5: Lakshmi Idol -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="idols">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/5.png" alt="Goddess Lakshmi Idol" class="w-100">
+              <span class="product-badge">Metal Idols</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Brass Deity Idol</h5>
+              <p class="text-muted small mb-0">Traditional handcrafted statue</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6: Dhokra Tribal Dancer -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="tribal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/6.png" alt="Dhokra Tribal Dancer" class="w-100">
+              <span class="product-badge">Tribal Art</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Tribal Dhokra Art</h5>
+              <p class="text-muted small mb-0">Traditional lost-wax casting sculpture</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7: Elephant Pair -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="animal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/7.png" alt="Elephant Pair Sculpture" class="w-100">
+              <span class="product-badge">Animal Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Decorative Sculpture</h5>
+              <p class="text-muted small mb-0">Handcrafted brass art piece</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8: Wall Hanging Mask -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="decor">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/8.png" alt="Decorative Wall Mask" class="w-100">
+              <span class="product-badge">Home Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Wall Décor Art</h5>
+              <p class="text-muted small mb-0">Traditional metal wall hanging</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 9: Shiva Nataraja -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="idols">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/9.png" alt="Shiva Nataraja Idol" class="w-100">
+              <span class="product-badge">Metal Idols</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Metal Deity Statue</h5>
+              <p class="text-muted small mb-0">Traditional bronze crafted idol</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 10: Tribal Musicians -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="tribal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/10.png" alt="Tribal Musicians Group" class="w-100">
+              <span class="product-badge">Tribal Art</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Tribal Sculpture Set</h5>
+              <p class="text-muted small mb-0">Traditional folk art collection</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 11: Peacock Sculpture -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="animal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/11.png" alt="Royal Peacock Sculpture" class="w-100">
+              <span class="product-badge">Animal Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Decorative Figurine</h5>
+              <p class="text-muted small mb-0">Handcrafted brass decoration</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 12: Brass Diya Stand -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="decor">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/12.png" alt="Traditional Diya Stand" class="w-100">
+              <span class="product-badge">Home Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Traditional Lamp Stand</h5>
+              <p class="text-muted small mb-0">Handcrafted brass lighting décor</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 13: Radha Krishna Idol -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="idols">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/13.png" alt="Radha Krishna Pair" class="w-100">
+              <span class="product-badge">Metal Idols</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Divine Idol Pair</h5>
+              <p class="text-muted small mb-0">Traditional brass deity statues</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 14: Tribal Horse Cart -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="tribal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/14.png" alt="Dhokra Horse Cart" class="w-100">
+              <span class="product-badge">Tribal Art</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Tribal Art Collection</h5>
+              <p class="text-muted small mb-0">Authentic Dhokra folk sculpture</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 15: Horse Figurine -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="animal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/15.png" alt="Brass Horse Figurine" class="w-100">
+              <span class="product-badge">Animal Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Metal Figurine</h5>
+              <p class="text-muted small mb-0">Handcrafted decorative sculpture</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 16: Decorative Bell -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="decor">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/16.png" alt="Temple Bell" class="w-100">
+              <span class="product-badge">Home Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Brass Bell</h5>
+              <p class="text-muted small mb-0">Traditional handcrafted temple bell</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 17: Decorative Item -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="decor">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/17.png" alt="Decorative Artifact" class="w-100">
+              <span class="product-badge">Home Décor</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Home Décor Item</h5>
+              <p class="text-muted small mb-0">Handcrafted decorative piece</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 18: Metal Sculpture -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="idols">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/18.png" alt="Metal Sculpture" class="w-100">
+              <span class="product-badge">Metal Idols</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Artistic Metal Piece</h5>
+              <p class="text-muted small mb-0">Traditional handcrafted idol</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 19: Artistic Piece -->
+        <div class="col-md-6 col-lg-4 col-xl-3 product-item" data-category="tribal">
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img src="images/19.png" alt="Artistic Piece" class="w-100">
+              <span class="product-badge">Tribal Art</span>
+            </div>
+            <div class="p-3">
+              <h5 class="fw-semibold mb-2">Tribal Handcraft</h5>
+              <p class="text-muted small mb-0">Authentic folk art sculpture</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- No Results Message -->
+      <div id="noResults" class="text-center py-5" style="display: none;">
+        <i class="bi bi-search fs-1 text-muted mb-3"></i>
+        <h4 class="text-muted">No products found</h4>
+        <p class="text-muted">Try selecting a different category</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta-section text-white text-center">
+    <div class="container">
+      <h2 class="display-6 fw-semibold mb-4">Interested in Any of These Pieces?</h2>
+      <p class="lead mb-4">Contact us for pricing, availability, and custom orders</p>
+      <div class="d-flex gap-3 justify-content-center flex-wrap">
+        <a href="contact.html" class="btn btn-light btn-lg">
+          <i class="bi bi-envelope me-2"></i>Contact Us
+        </a>
+        <a href="https://wa.me/919424204999?text=Hi%2C%20I'm%20interested%20in%20products%20from%20your%20gallery"
+           class="btn btn-success btn-lg" target="_blank">
+          <i class="bi bi-whatsapp me-2"></i>WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5 class="fw-semibold mb-3">SANSKRITI NX</h5>
+          <p class="text-muted small">Art of Heart - Handcrafted metal idols, tribal art, and traditional home décor from Raipur, Chhattisgarh.</p>
+          <div class="social-links mt-3">
+            <a href="https://instagram.com/sanskriti_nx" target="_blank" class="text-light me-3">
+              <i class="bi bi-instagram fs-5"></i>
+            </a>
+            <a href="https://wa.me/919424204999" target="_blank" class="text-light me-3">
+              <i class="bi bi-whatsapp fs-5"></i>
+            </a>
+            <a href="mailto:hiraraipur@yahoo.com" class="text-light">
+              <i class="bi bi-envelope fs-5"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4">
+          <h6 class="fw-semibold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-muted text-decoration-none small">Home</a></li>
+            <li><a href="about.html" class="text-muted text-decoration-none small">About</a></li>
+            <li><a href="gallery.html" class="text-muted text-decoration-none small">Gallery</a></li>
+            <li><a href="contact.html" class="text-muted text-decoration-none small">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <h6 class="fw-semibold mb-3">Contact</h6>
+          <ul class="list-unstyled text-muted small">
+            <li class="mb-2">
+              <i class="bi bi-geo-alt me-2"></i>Eskay Plaza, New Bombay Market<br>
+              <span class="ms-4">Raipur - 492001, Chhattisgarh</span>
+            </li>
+            <li class="mb-2">
+              <i class="bi bi-telephone me-2"></i>
+              <a href="tel:+919424204999" class="text-muted text-decoration-none">94242 04999</a>
+            </li>
+            <li>
+              <i class="bi bi-envelope me-2"></i>
+              <a href="mailto:hiraraipur@yahoo.com" class="text-muted text-decoration-none">hiraraipur@yahoo.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <h6 class="fw-semibold mb-3">Business Hours</h6>
+          <ul class="list-unstyled text-muted small">
+            <li>Monday - Saturday: 10:00 AM - 7:00 PM</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="my-4 border-secondary">
+
+      <div class="text-center text-muted small">
+        <p class="mb-0">&copy; 2024 SANSKRITI NX. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919424204999?text=Hi%2C%20I'm%20interested%20in%20your%20handicraft%20products"
+     class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+
+  <!-- Gallery Filter Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const productItems = document.querySelectorAll('.product-item');
+      const noResults = document.getElementById('noResults');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const category = this.getAttribute('data-category');
+
+          // Update active button
+          filterBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          // Filter products
+          let visibleCount = 0;
+          productItems.forEach(item => {
+            if (category === 'all' || item.getAttribute('data-category') === category) {
+              item.style.display = 'block';
+              visibleCount++;
+            } else {
+              item.style.display = 'none';
+            }
+          });
+
+          // Show/hide no results message
+          noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
